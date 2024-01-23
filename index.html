@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" 
+     integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body >
+    
+    
+    <!-- hed -->
+    <header class="header">
+        <div class="container hed-con">
+            <div class="hed-ft">
+                <i class="fa-solid fa-bars" id="bare" onclick="mediaa()" style="color: #909398;"></i>
+                <div class="hed-d-1">
+                    <div class="hed-img-d"><img src="audi.icon.png" alt="" class="hed-img"></div>
+                    <div class="media-wr" id="media_wr">
+                        <div class="hed-wrd" onclick="nez()" id="media_li">
+                            <div class="hed-wwd" id="media-li"><a href=""class="hed-link">Company <a><i class="fa-solid fa-angle-down" onclick="med()" id="media-font" style="color: #6b6b6b;"></i></div>
+                            <div class="hed-lian"></div>
+                        </div>
+                        <div class="hed-wrd">
+                            <div class="hed-wwd"><a href="" class="hed-link">Innovation</a></div>
+                            <div class="hed-lian-2"></div>
+                        </div>
+                        <div class="hed-wrd">
+                            <div class="hed-wwd-osb-2"><a href="" class="hed-link">Sustainability</a></div>
+                            <div class="hed-lian-3"></div>
+                        </div>
+                        <div class="hed-wrd">
+                            <div class="hed-wwd"><a href="" id="a" class="hed-link">Careers</a></div>
+                            <div class="hed-lian-4"></div>
+                        </div>
+                        <div class="hed-wrd" onclick="liste()">
+                            <div class="hed-wwd-osb" id="media-li"><a href="" class="hed-link">Audi in sport </a><i class="fa-solid fa-angle-down" onclick="medi()" id="media-font_2" style="color: #6b6b6b;"></i></div>
+                            <div class="hed-lian-5"></div>
+                        </div>
+                        <button id="btn" onclick="mediabtnwr()">X</button>
+                    </div>
+
+                </div>
+                <div class="hed-d-2">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #2b2d31;"></i>
+                    <p class="hed-ft-text">search</p>
+                    <i class="fa-solid fa-globe" style="color: #2b2d31;"></i>
+                    <p class="hed-text">Audi in your Region: <span class="hed-sp">Global</span></p>
+                </div>
+            </div>
+        </div>
+                    <div class="hed-d-3" id="list">
+                <div class="hed-list" id="hover">
+                    <div class="hed-uil" onclick="dask()">
+                        <div class="hed-item"><a href="" class="hed-link-2">Overview</a></div>
+                        <div class="hed-lian-6"></div>
+                    </div>
+                    <div class="hed-uil">
+                        <div class="hed-item"><a href="" class="hed-link-2">Strategy</a></div>
+                        <div class="hed-lian-7"></div>
+                    </div>
+                    <div class="hed-uil">
+                        <div class="hed-item"><a href="" class="hed-link-2">Profile</a></div>
+                        <div class="hed-lian-8"></div>
+                    </div>
+                    <div class="hed-uil">
+                        <div class="hed-item"><a href="" class="hed-link-2">Investor</a></div>
+                        <div class="hed-lian-9"></div>
+                    </div>
+                    <div class="hed-uil">
+                        <div class="hed-item"><a href="" class="hed-link-2">Compliance</a></div>
+                        <div class="hed-lian-10"></div>
+                    </div>
+                    <div class="hed-uil-osb">
+                        <div class="hed-item"><a href="" id="a-2" class="hed-link-2">Pressa</a></div>
+                        <div class="hed-lian-11"></div>
+                        <button class="hed-btn" onclick="X()">X</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hed-d-4" id="list_2">
+                <div class="hed-list" id="hover_2">
+                    <div class="hed-uil">
+                        <div class="hed-item"><a href="" class="hed-link-2">Overview</a></div>
+                        <div class="hed-lian-12"></div>
+                    </div>
+                    <div class="hed-uil">
+                        <div class="hed-item"><a href="" class="hed-link-2">Vorsprung</a></div>
+                        <div class="hed-lian-13"></div>
+                    </div>
+                    <div class="hed-uil-osb">
+                        <div class="hed-item"><a href="" class="hed-link-2">Football</a></div>
+                        <div class="hed-lian-14"></div>
+                        <button class="hed-btn" onclick="XX()">X</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="hed-d-5" id="skol">
+                <div class="hed-list" id="skol_2">
+                    <div class="hed-uil">
+                        <div class="hed-item"><a href="" class="hed-link-2">Overview</a></div>
+                        <div class="hed-lian-15"></div>
+                    </div>
+                    <div class="hed-uil">
+                        <div class="hed-item"><a href="" class="hed-link-2">Vorsprung</a></div>
+                        <div class="hed-lian-16"></div>
+                    </div>
+                    <div class="hed-uil-osb">
+                        <div class="hed-item-osb"><a href="" class="hed-link-2">Football Partnerships</a></div>
+                        <div class="hed-lian-17"></div>
+                        <button class="hed-btn" onclick="XXL()">X</button>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- hed -->
+    <main class="main" id="exs">
+        <div class="ex">
+            <div class="bg"></div>
+        </div>
+
+        <section class="sm-1" id="sm_1">
+            <div class="container sm-1-con">
+                <h1 class="sm-1-title">Effective Egnamenet</h1>
+                <p class="sm-1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nemo aliquid cupiditate dicta iste</p>
+                <button class="sm-1-btn">Read More</button>
+            </div>
+        </section>
+        <!-- sm-1 -->
+        <section class="sm-2">
+            <div class="container sm-2-con">
+                <h1 class="sm-2-title">Current Topocs of the world Audi</h1>
+                <div class="sm-2-wr">
+                    <div class="sm-2-wrd">
+                        <div class="sm-2-img-d"><img src="img-1.jpg" alt="" class="sm-2-img"></div>
+                        <div class="sm-2-wwd">
+                            <p class="sm-2-text">Made in __ 11/22/2023</p>
+                            <h3 class="sm-2-title-2">Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor</h3>
+                            <p class="sm-2-text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptatibus unde odit esse consectetur, 
+                                 maxime dicta quaerat dolore cum veritatis voluptas dolor, nemo mollitia facilis ipsum Aut!</p>
+                        </div>
+                    </div>
+                    <div class="sm-2-wrd">
+                        <div class="sm-2-img-d"><img src="img-2.jpg" alt="" class="sm-2-img"></div>
+                        <div class="sm-2-wwd">
+                            <p class="sm-2-text">Made in __ 11/22/2023</p>
+                            <h3 class="sm-2-title-2">Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor</h3>
+                            <p class="sm-2-text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptatibus unde odit esse consectetur, 
+                                 maxime dicta quaerat dolore cum veritatis voluptas dolor, nemo mollitia facilis ipsum Aut!</p>
+                        </div>
+                    </div>
+                    <div class="sm-2-wrd">
+                        <div class="sm-2-img-d"><img src="img-3.jpg" alt="" class="sm-2-img"></div>
+                        <div class="sm-2-wwd">
+                            <p class="sm-2-text">Made in __ 11/22/2023</p>
+                            <h3 class="sm-2-title-2">Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor</h3>
+                            <p class="sm-2-text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptatibus unde odit esse consectetur, 
+                                 maxime dicta quaerat dolore cum veritatis voluptas dolor, nemo mollitia facilis ipsum Aut!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sm-2 -->
+        <section class="sm-3">
+            <div class="container sm-3-con">
+                <div class="sm-3-d-1">
+                    <h3 class="sm-3-title">Full Electric speed head</h3>
+                    <p class="sm-3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ip 
+                        sa placeat ducimus nostrum similique eaque nemo qui molestiae earum mollitia?</p>
+                        <button class="sm-3-btn">Read More</button>
+                        <p class="sm-3-text-2">Audi Q8  1S 100/KMH Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                             Dolorum odio accusamus voluptatibus facilis itaque assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam autem eligendi facilis ullam ipsa?</p>
+                </div>
+                <div class="sm-3-d-2"><img src="img-4.jpg" alt="" class="sm-3-img"></div>
+            </div>
+        </section>
+        <!-- sm-3 -->
+        <section class="sm-4">
+            <div class="container sm-4-con">
+                <div class="sm-4-d-2"><img src="img-5.jpg" alt="" class="sm-4-img"></div>
+                <div class="sm-4-d-1">
+                    <h3 class="sm-4-title">#working Electric speed</h3>
+                    <p class="sm-4-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ip 
+                        sa placeat ducimus nostrum similique eaque nemo qui molestiae earum mollitia?Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <button class="sm-4-btn">Read More</button>
+                </div>
+            </div>
+        </section>
+        <!-- sm-4 -->
+        <section class="sm-5">
+            <div class="container sm-5-con">
+                <h1 class="sm-5-title">Press Releases</h1>
+                <div class="sm-5-wr">
+                    <div class="sm-2-wrd">
+                        <div class="sm-2-img-d"><img src="img-6.jpg" alt="" class="sm-2-img"></div>
+                        <div class="sm-2-wwd">
+                            <p class="sm-2-text">Made in __ 11/22/2023</p>
+                            <h3 class="sm-2-title-2">Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor</h3>
+                            <p class="sm-2-text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptatibus unde odit esse consectetur, 
+                                maxime dicta quaerat dolore cum veritatis voluptas dolor, nemo mollitia facilis ipsum Aut!</p>
+                        </div>
+                    </div>
+                    <div class="sm-2-wrd">
+                        <div class="sm-2-img-d"><img src="img-7.jpg" alt="" class="sm-2-img"></div>
+                        <div class="sm-2-wwd">
+                            <p class="sm-2-text">Made in __ 11/22/2023</p>
+                            <h3 class="sm-2-title-2">Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor</h3>
+                            <p class="sm-2-text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptatibus unde odit esse consectetur, 
+                                maxime dicta quaerat dolore cum veritatis voluptas dolor, nemo mollitia facilis ipsum Aut!</p>
+                        </div>
+                    </div>
+                    <div class="sm-2-wrd">
+                        <div class="sm-2-img-d"><img src="img-8.jpg" alt="" class="sm-2-img"></div>
+                        <div class="sm-2-wwd">
+                            <p class="sm-2-text">Made in __ 11/22/2023</p>
+                            <h3 class="sm-2-title-2">Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor</h3>
+                            <p class="sm-2-text-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt voluptatibus unde odit esse consectetur, 
+                                maxime dicta quaerat dolore cum veritatis voluptas dolor, nemo mollitia facilis ipsum Aut!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sm-5 -->
+        <section class="sm-3">
+            <div class="container sm-3-con">
+                <div class="sm-3-d-2"><img src="img-9.jpg" alt="" class="sm-3-img"></div>
+                <div class="sm-3-d-1">
+                    <h3 class="sm-3-title">Full Electric speed head</h3>
+                    <p class="sm-3-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ip 
+                        sa placeat ducimus nostrum similique eaque nemo qui molestiae earum mollitia?</p>
+                        <button class="sm-3-btn">Read More</button>
+                        <p class="sm-3-text-2">Audi Q8  1S 100/KMH Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                             Dolorum odio accusamus voluptatibus facilis itaque assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur totam autem eligendi facilis ullam ipsa?</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main -->
+
+    <footer class="footer">
+        <div class="container foot-con">
+            <div class="foot-d-1">
+                <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+            </div>
+            <div class="foot-d-2">
+                <ul class="foot-list">
+                    <li class="foot-item-osb">
+                        Topics
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Company</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Innovation</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Models</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Brand</a>
+                    </li>
+                </ul>
+                <ul class="foot-list">
+                    <li class="foot-item-osb">
+                        AUDI AG
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">myAudi</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Innovallln</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Contact</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Lorem</a>
+                    </li>
+                </ul>
+                <ul class="foot-list">
+                    <li class="foot-item-osb">
+                        Services
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Audi Report 2022</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Documents & Policies</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Models</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Brand</a>
+                    </li>
+                </ul>
+                <!-- xr -->
+                <div class="med-xr">
+                    <p class="xr-t">Audi Tg</p>
+                    <i class="fa-solid fa-angle-down" id="xr_angle" onclick="r()"  style="color: #ffffff;"></i>
+                </div>
+                <ul class="foot-list-3" id="xr1">
+                    <li class="foot-item-osb">
+                        Topics
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Company</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Innovation</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Models</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Brand</a>
+                    </li>
+                </ul>
+                <div class="med-xr">
+                    <p class="xr-t">Topics</p>
+                    <i class="fa-solid fa-angle-down" id="xr_angle" onclick="rr()" style="color: #ffffff;"></i>
+                </div>
+                <ul class="foot-list-3" id="xr2">
+                    <li class="foot-item-osb">
+                        AUDI AG
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">myAudi</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Innovallln</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Contact</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Lorem</a>
+                    </li>
+                </ul>
+                <div class="med-xr">
+                    <p class="xr-t">Services</p>
+                    <i class="fa-solid fa-angle-down" id="xr_angle" onclick="rrr()"  style="color: #ffffff;"></i>
+                </div>
+                <ul class="foot-list-3" id="xr3">
+                    <li class="foot-item-osb">
+                        Services
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Audi Report 2022</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Documents & Policies</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Models</a>
+                    </li>
+                    <li class="foot-item">
+                        <a href="" class="foot-link">Brand</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="foot-d-3">
+                <div class="foot-ft">
+                    <a href="" class="foot-link-vne-ul">© AUDI AG. All rights reserved</a>
+                </div>
+                <ul class="foot-list-2">
+                    <li class="foot-item-2">
+                        <a href="" class="foot-link">Audi Report 2022</a>
+                    </li>
+                    <li class="foot-item-2">
+                        <a href="" class="foot-link">Documents & Policies</a>
+                    </li>
+                    <li class="foot-item-2">
+                        <a href="" class="foot-link">Models</a>
+                    </li>
+                    <li class="foot-item-2">
+                        <a href="" class="foot-link">Brand</a>
+                        
+                    </li>
+                </ul>
+                <div class="foot-ft-2">
+                    <div class="foot-d-4">
+                        <i class="fa-solid fa-globe" style="color: #ffffff; font-size: 20px;"></i>
+                        <p class="foot-text">English</p>
+                        <i class="fa-solid fa-angle-down" onclick="down()" id="ex_down" style="color: #ffffff;"></i>
+                    </div>
+                    <p class="foot-text-ft" id="txt" onclick="non()">Deutcth</p>
+                </div>
+            </div>
+                <div class="foot-d-5">
+                    <p class="foot-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus architecto dolor nobis quo dicta incidunt ex eos modi iure et?Lorem 
+                         ipsum dolor sit amet consectetur adipisicing elit. Vitae, dolores!</p>
+                    <p class="foot-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptate blanditiis in, architecto quam dolores porro a sequi 
+                         reprehenderit adipisci recusandae necessitatibus labore voluptatum 
+                         sunt quia aspernatur accusantium, rerum obcaecati dignissimos officiis reiciendis repellat? Eum iste corrupti aperiam quisquam cum, 
+                         harum, nulla rerum similique nemo, hic perferendis. Vel, dolor laudantium.</p>
+                    <p class="foot-txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque dolores ut nobis placeat repellendus corporis dignissimos. Velit neque, libero voluptatibus voluptatum unde eaque nesciunt, 
+                         obcaecati a molestiae possimus provident, distinctio adipisci maxime necessitatibus tempore suscipit?</p>
+                    <p class="foot-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolore amet aperiam laboriosam, vero unde laborum excepturi laudantium fuga? Voluptatum nam omnis quidem est quis laboriosam, neque quae excepturi repellat. 
+                         Nemo quasi at cupiditate nulla et ullam voluptatem neque eaque itaque corporis?</p>
+                </div>
+
+        </div>
+    </footer>
+<!-- script -->
+    <script>
+        function nez() {
+            document.querySelector("#list").style.display = "block";
+            document.querySelector("#hover").style.height = "70px";
+            document.querySelector("#list_2").style.display = "none";
+            document.querySelector("#skol").style.display = "none";
+            document.querySelector("#sm_1").style.visibility = "hidden";
+            
+        }
+        function X() {
+            document.querySelector("#list").style.display = "none";
+            document.querySelector("#sm_1").style.visibility = "visible";
+        }
+        function liste() {
+            document.querySelector("#list_2").style.display = "block";
+            document.querySelector("#hover_2").style.height = "70px";
+            document.querySelector("#skol").style.display = "none";
+
+            document.querySelector("#list").style.display = "none";
+        }
+        function XX() {
+            document.querySelector("#list_2").style.display = "none";
+            document.querySelector("#sm_1").style.visibility = "visible";
+
+        }
+        function XXL() {
+            document.querySelector("#skol").style.display = "none";
+            document.querySelector("#sm_1").style.visibility = "visible";
+
+        }
+        function dask() {
+            document.querySelector("#skol").style.display = "block";
+            document.querySelector("#skol_2").style.height = "70px";
+            document.querySelector("#list").style.display = "none";
+            document.querySelector("#list_2").style.display = "none";
+        }
+        function down() {
+            document.querySelector("#txt").style.display = "block";
+            document.querySelector("#ex_down").style.transform = "rotate(180deg)";
+        }
+        function non() {
+            document.querySelector("#txt").style.display = "none";
+        }
+        function mediabtnwr() {
+            document.querySelector("#media_wr").style.display = "none";
+            document.querySelector("#sm_1").style.visibility = "visible";
+
+        }
+        function mediaa() {
+            document.querySelector("#media_wr").style.display = "block";
+            document.querySelector("#sm_1").style.visibility = "hidden";
+            document.getElementById("media_wr").style.transition = "1s";
+        }
+        function r() {
+            document.querySelector("#xr1").style.display = "block";
+        }
+        function rr() {
+            document.querySelector("#xr2").style.display = "block";
+        }
+        function rrr() {
+            document.querySelector("#xr3").style.display = "block";
+        }
+    </script>
+
+
+</body>
+</html>
